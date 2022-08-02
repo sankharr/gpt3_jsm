@@ -6,8 +6,18 @@ import { CTA, Brand, Navbar } from './components';
 function App() {
   return (
     <div className="App">
-      
+    <div className="gradient__bg">
+      <Navbar />
+      <Header />
     </div>
+    <Brand />
+    <WhoAreWe />
+    <Features />
+    <Possibility />
+    <CTA />
+    <Blog />
+    <Footer />
+  </div>
   );
 }
 
